@@ -100,12 +100,15 @@ html {
 
 #slider {
   position: relative;
-  margin-top: var(--height);
-  padding-top: 50%;
-  background: url(band-music/assets/img/chicago.jpg) top center / cover
-    no-repeat;
+  width: 1660px;
+  height: 830px;
+  margin-top: 46px;
+}
+#slider .slider-img {
+  width: 100%;
 }
 #slider .text-content {
+  display: block;
   position: absolute;
   bottom: 47px;
   color: white;
